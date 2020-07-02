@@ -6,15 +6,6 @@
 # lotto6aus49() 
 # eurojackpot()
 
-## von remote sourcen per devtools::source_url(<link zur file-raw-version>)
-# library(devtools)
-# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R"     
-# source_url(gitHub_code)
-#
-## oder per eigener source_urlGit() ... Vorteil: falls priv. pj, dann credentials automatisch verwendet
-# gitHub_code <- "https://raw.githubusercontent.com/anguenth/lottoziehung/master/startfile.R" 
-# source_urlGit(gitHub_code)
-
 
 ## 6 aus 49 plus Superzahl
 lotto6aus49 <- function(){
