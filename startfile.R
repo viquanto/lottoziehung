@@ -24,7 +24,7 @@ lotto6aus49 <- function(){
 eurojackpot <- function(){
     
     hz <- sort(sample(1:50, 5))                ## dflt: replace=FALSE in sample(1:49, 6, replace=FALSE), d.h. ohne Zurücklegen
-    ez <- sample(1:10, 2)   
+    ez <- sample(1:12, 2)   
     
     result <- paste0("5 aus 50 Tipp: ",Reduce("paste",hz)," ... EZ ",Reduce("paste",ez)) 
     
